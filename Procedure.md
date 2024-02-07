@@ -2,9 +2,9 @@
    pip install django, tensorflow, numpy, Pillow, rembg, numpy
 
 # 2. Create a prject
-   django-admin startproject <projectname>
+   django-admin startproject 'projectname'
 
-  ## files are automatically created under <projectname>-folder 
+  ## files are automatically created under 'projectname'-folder 
 
 e.g.,
 ###
@@ -18,9 +18,9 @@ e.g.,
       ├ wsgi.py
 
 # 3. Create an application
-  python3 manage.py startapp <app-name>
+  python3 manage.py startapp 'app-name'
 
-  ## files are automatically created under <app-name>-folder
+  ## files are automatically created under 'app-name'-folder
 
 e.g.,
 ###
@@ -39,7 +39,7 @@ e.g.,
 
 # 4. Copy "views_littersort.py" to "app-name/views.py"
 
-# 5. Copy "littrsort_model.tflite" into the <project-name> folder.
+# 5. Copy "littrsort_model.tflite" into the 'project-name' folder.
 
 # 6. Change "projectname/mysite/settings.py"  (if needed)
   
