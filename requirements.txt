@@ -2,3 +2,4 @@ numpy
 tensorflow
 rembg
 django
+python-dotenv
